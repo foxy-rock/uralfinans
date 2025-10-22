@@ -599,6 +599,11 @@ ul li {
 }
 
 @media (max-width: 600px) {
+  .btn__orange,
+  .btn__green,
+  .btn__red {
+    font-size: 15px !important;
+  }
   .db-mobile-md {
     display: flex !important;
   }
@@ -1161,10 +1166,12 @@ ul li {
     color: #eee;
   }
 
-  .tab-content-cards .included__card-info h3 {
+  .tab-content-cards {
     font-size: 19px;
   }
-
+  .working__body .included__card-info h3 {
+    text-align: left !important;
+  }
   .tab-content-cards .included__card p {
     font-size: 15px !important;
   }
@@ -3819,16 +3826,16 @@ video {
 }
 
 .callback__check label p a {
-  color: #FDE78F;
+  color: #fde78f;
 }
 
 label {
   cursor: auto;
 }
- input[type="checkbox"] {
-   transform:scale(1.6);
-   cursor: pointer;
- }
+input[type="checkbox"] {
+  transform: scale(1.6);
+  cursor: pointer;
+}
 
 @media (max-width: 700px) {
   .callback__form input {
@@ -3843,6 +3850,15 @@ label {
   .callback__form-btn,
   .callback__form {
     margin-top: 15px;
+    padding: 20px;
+  }
+
+  .popup-content {
+    width: 95%;
+  }
+
+  .callback__check label p {
+    font-size: 12px;
   }
 
   .callback__form-btn a {
